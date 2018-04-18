@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB4913312086DDA1000CFCF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4913302086DDA1000CFCF0 /* AppDelegate.m */; };
+		FB4913342086DDA1000CFCF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4913332086DDA1000CFCF0 /* ViewController.m */; };
+		FB4913372086DDA1000CFCF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4913352086DDA1000CFCF0 /* Main.storyboard */; };
+		FB4913392086DDA1000CFCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4913382086DDA1000CFCF0 /* Assets.xcassets */; };
+		FB49133C2086DDA1000CFCF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB49133A2086DDA1000CFCF0 /* LaunchScreen.storyboard */; };
+		FB49133F2086DDA1000CFCF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB49133E2086DDA1000CFCF0 /* main.m */; };
+		FB4913492086DDA1000CFCF0 /* GetIPAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4913482086DDA1000CFCF0 /* GetIPAddressTests.m */; };
+		FB4913542086DDA1000CFCF0 /* GetIPAddressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4913532086DDA1000CFCF0 /* GetIPAddressUITests.m */; };
+		FB4913632086DDC8000CFCF0 /* JCIPAddressConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4913622086DDC8000CFCF0 /* JCIPAddressConfig.m */; };
+		FB4913662086DDF3000CFCF0 /* RequestIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4913652086DDF3000CFCF0 /* RequestIPAddress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB4913452086DDA1000CFCF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4913242086DDA1000CFCF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB49132B2086DDA1000CFCF0;
+			remoteInfo = GetIPAddress;
+		};
+		FB4913502086DDA1000CFCF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4913242086DDA1000CFCF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB49132B2086DDA1000CFCF0;
+			remoteInfo = GetIPAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB49132C2086DDA1000CFCF0 /* GetIPAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetIPAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB49132F2086DDA1000CFCF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB4913302086DDA1000CFCF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB4913322086DDA1000CFCF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB4913332086DDA1000CFCF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB4913362086DDA1000CFCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB4913382086DDA1000CFCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB49133B2086DDA1000CFCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB49133D2086DDA1000CFCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB49133E2086DDA1000CFCF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB4913442086DDA1000CFCF0 /* GetIPAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4913482086DDA1000CFCF0 /* GetIPAddressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIPAddressTests.m; sourceTree = "<group>"; };
+		FB49134A2086DDA1000CFCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB49134F2086DDA1000CFCF0 /* GetIPAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4913532086DDA1000CFCF0 /* GetIPAddressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetIPAddressUITests.m; sourceTree = "<group>"; };
+		FB4913552086DDA1000CFCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4913612086DDC8000CFCF0 /* JCIPAddressConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCIPAddressConfig.h; sourceTree = "<group>"; };
+		FB4913622086DDC8000CFCF0 /* JCIPAddressConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCIPAddressConfig.m; sourceTree = "<group>"; };
+		FB4913642086DDF3000CFCF0 /* RequestIPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestIPAddress.h; sourceTree = "<group>"; };
+		FB4913652086DDF3000CFCF0 /* RequestIPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestIPAddress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4913292086DDA1000CFCF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4913412086DDA1000CFCF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB49134C2086DDA1000CFCF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB4913232086DDA1000CFCF0 = {
+			isa = PBXGroup;
+			children = (
+				FB49132E2086DDA1000CFCF0 /* GetIPAddress */,
+				FB4913472086DDA1000CFCF0 /* GetIPAddressTests */,
+				FB4913522086DDA1000CFCF0 /* GetIPAddressUITests */,
+				FB49132D2086DDA1000CFCF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB49132D2086DDA1000CFCF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB49132C2086DDA1000CFCF0 /* GetIPAddress.app */,
+				FB4913442086DDA1000CFCF0 /* GetIPAddressTests.xctest */,
+				FB49134F2086DDA1000CFCF0 /* GetIPAddressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB49132E2086DDA1000CFCF0 /* GetIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				FB49132F2086DDA1000CFCF0 /* AppDelegate.h */,
+				FB4913302086DDA1000CFCF0 /* AppDelegate.m */,
+				FB4913322086DDA1000CFCF0 /* ViewController.h */,
+				FB4913332086DDA1000CFCF0 /* ViewController.m */,
+				FB4913612086DDC8000CFCF0 /* JCIPAddressConfig.h */,
+				FB4913622086DDC8000CFCF0 /* JCIPAddressConfig.m */,
+				FB4913642086DDF3000CFCF0 /* RequestIPAddress.h */,
+				FB4913652086DDF3000CFCF0 /* RequestIPAddress.m */,
+				FB4913352086DDA1000CFCF0 /* Main.storyboard */,
+				FB4913382086DDA1000CFCF0 /* Assets.xcassets */,
+				FB49133A2086DDA1000CFCF0 /* LaunchScreen.storyboard */,
+				FB49133D2086DDA1000CFCF0 /* Info.plist */,
+				FB49133E2086DDA1000CFCF0 /* main.m */,
+			);
+			path = GetIPAddress;
+			sourceTree = "<group>";
+		};
+		FB4913472086DDA1000CFCF0 /* GetIPAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4913482086DDA1000CFCF0 /* GetIPAddressTests.m */,
+				FB49134A2086DDA1000CFCF0 /* Info.plist */,
+			);
+			path = GetIPAddressTests;
+			sourceTree = "<group>";
+		};
+		FB4913522086DDA1000CFCF0 /* GetIPAddressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4913532086DDA1000CFCF0 /* GetIPAddressUITests.m */,
+				FB4913552086DDA1000CFCF0 /* Info.plist */,
+			);
+			path = GetIPAddressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB49132B2086DDA1000CFCF0 /* GetIPAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4913582086DDA1000CFCF0 /* Build configuration list for PBXNativeTarget "GetIPAddress" */;
+			buildPhases = (
+				FB4913282086DDA1000CFCF0 /* Sources */,
+				FB4913292086DDA1000CFCF0 /* Frameworks */,
+				FB49132A2086DDA1000CFCF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetIPAddress;
+			productName = GetIPAddress;
+			productReference = FB49132C2086DDA1000CFCF0 /* GetIPAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB4913432086DDA1000CFCF0 /* GetIPAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB49135B2086DDA1000CFCF0 /* Build configuration list for PBXNativeTarget "GetIPAddressTests" */;
+			buildPhases = (
+				FB4913402086DDA1000CFCF0 /* Sources */,
+				FB4913412086DDA1000CFCF0 /* Frameworks */,
+				FB4913422086DDA1000CFCF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4913462086DDA1000CFCF0 /* PBXTargetDependency */,
+			);
+			name = GetIPAddressTests;
+			productName = GetIPAddressTests;
+			productReference = FB4913442086DDA1000CFCF0 /* GetIPAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB49134E2086DDA1000CFCF0 /* GetIPAddressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB49135E2086DDA1000CFCF0 /* Build configuration list for PBXNativeTarget "GetIPAddressUITests" */;
+			buildPhases = (
+				FB49134B2086DDA1000CFCF0 /* Sources */,
+				FB49134C2086DDA1000CFCF0 /* Frameworks */,
+				FB49134D2086DDA1000CFCF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4913512086DDA1000CFCF0 /* PBXTargetDependency */,
+			);
+			name = GetIPAddressUITests;
+			productName = GetIPAddressUITests;
+			productReference = FB49134F2086DDA1000CFCF0 /* GetIPAddressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4913242086DDA1000CFCF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "风外杏林香";
+				TargetAttributes = {
+					FB49132B2086DDA1000CFCF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FB4913432086DDA1000CFCF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB49132B2086DDA1000CFCF0;
+					};
+					FB49134E2086DDA1000CFCF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB49132B2086DDA1000CFCF0;
+					};
+				};
+			};
+			buildConfigurationList = FB4913272086DDA1000CFCF0 /* Build configuration list for PBXProject "GetIPAddress" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4913232086DDA1000CFCF0;
+			productRefGroup = FB49132D2086DDA1000CFCF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB49132B2086DDA1000CFCF0 /* GetIPAddress */,
+				FB4913432086DDA1000CFCF0 /* GetIPAddressTests */,
+				FB49134E2086DDA1000CFCF0 /* GetIPAddressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB49132A2086DDA1000CFCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB49133C2086DDA1000CFCF0 /* LaunchScreen.storyboard in Resources */,
+				FB4913392086DDA1000CFCF0 /* Assets.xcassets in Resources */,
+				FB4913372086DDA1000CFCF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4913422086DDA1000CFCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB49134D2086DDA1000CFCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4913282086DDA1000CFCF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4913632086DDC8000CFCF0 /* JCIPAddressConfig.m in Sources */,
+				FB4913342086DDA1000CFCF0 /* ViewController.m in Sources */,
+				FB49133F2086DDA1000CFCF0 /* main.m in Sources */,
+				FB4913312086DDA1000CFCF0 /* AppDelegate.m in Sources */,
+				FB4913662086DDF3000CFCF0 /* RequestIPAddress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4913402086DDA1000CFCF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4913492086DDA1000CFCF0 /* GetIPAddressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB49134B2086DDA1000CFCF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4913542086DDA1000CFCF0 /* GetIPAddressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB4913462086DDA1000CFCF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB49132B2086DDA1000CFCF0 /* GetIPAddress */;
+			targetProxy = FB4913452086DDA1000CFCF0 /* PBXContainerItemProxy */;
+		};
+		FB4913512086DDA1000CFCF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB49132B2086DDA1000CFCF0 /* GetIPAddress */;
+			targetProxy = FB4913502086DDA1000CFCF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB4913352086DDA1000CFCF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4913362086DDA1000CFCF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB49133A2086DDA1000CFCF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB49133B2086DDA1000CFCF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB4913562086DDA1000CFCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB4913572086DDA1000CFCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB4913592086DDA1000CFCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = GetIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetIPAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB49135A2086DDA1000CFCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = GetIPAddress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetIPAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB49135C2086DDA1000CFCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = GetIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetIPAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIPAddress.app/GetIPAddress";
+			};
+			name = Debug;
+		};
+		FB49135D2086DDA1000CFCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = GetIPAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetIPAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetIPAddress.app/GetIPAddress";
+			};
+			name = Release;
+		};
+		FB49135F2086DDA1000CFCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = GetIPAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetIPAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetIPAddress;
+			};
+			name = Debug;
+		};
+		FB4913602086DDA1000CFCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = GetIPAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GetIPAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetIPAddress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4913272086DDA1000CFCF0 /* Build configuration list for PBXProject "GetIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4913562086DDA1000CFCF0 /* Debug */,
+				FB4913572086DDA1000CFCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4913582086DDA1000CFCF0 /* Build configuration list for PBXNativeTarget "GetIPAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4913592086DDA1000CFCF0 /* Debug */,
+				FB49135A2086DDA1000CFCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB49135B2086DDA1000CFCF0 /* Build configuration list for PBXNativeTarget "GetIPAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB49135C2086DDA1000CFCF0 /* Debug */,
+				FB49135D2086DDA1000CFCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB49135E2086DDA1000CFCF0 /* Build configuration list for PBXNativeTarget "GetIPAddressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB49135F2086DDA1000CFCF0 /* Debug */,
+				FB4913602086DDA1000CFCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4913242086DDA1000CFCF0 /* Project object */;
+}
